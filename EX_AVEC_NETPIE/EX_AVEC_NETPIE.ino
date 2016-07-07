@@ -1,10 +1,5 @@
-//#include <AuthClient.h>
-//#include <MicroGear.h>
-//#include <MQTTClient.h>
-//#include <SHA1.h>
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
-#include <EEPROM.h>
 #include <MicroGear.h>
 #include "DHT.h"
 #include <ESPert.h>
@@ -13,8 +8,8 @@ const char* ssid     = "ESP_AVEC";  // Change your ssid wifi
 const char* password = "AVECqwerty";  // Change your password wifi
 
 #define APPID   "HelloCMMC"             // Change your appID
-#define KEY     "KEY_ID"       // Change your Key ex.BZYTbAa9ItnMyeW
-#define SECRET  "SECRET_ID" // Change your SECRET ex.h4aeKNOFIlSatTS8ADNk3Ft3O
+#define KEY     "BZYTbAa9ItnMyeW"       // Change your Key ex.BZYTbAa9ItnMyeW
+#define SECRET  "h4aeKNOFIlSatTS8ADNk3Ft3O" // Change your SECRET ex.h4aeKNOFIlSatTS8ADNk3Ft3O
 #define ALIAS   "smartuniversity"       // Change your name
 
 #define LEDPin 16
